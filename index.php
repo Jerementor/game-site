@@ -13,8 +13,11 @@ get_header();
 ?>
 
 <!-- Index.php -->
-<div class="section_holder_blank">
-<div class="section-60-top-padding">
+<div class="section_holder_grey">
+<div class="section-no-top-padding">
+<div class="w-container">
+<div class="tgc_div">
+    <?php single_post_title(); ?>
 		<?php 
 		if ( have_posts() ) {
 			while ( have_posts() ) {
@@ -26,6 +29,8 @@ get_header();
 			} // end while
 		} // end if
 		?>
+</div>
+</div>
 </div>
 </div>
 <?php get_footer();
