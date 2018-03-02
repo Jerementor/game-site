@@ -15,6 +15,7 @@ get_header();
 <div class="section-no-top-padding">
 <div class="w-container">
 <div class="tgc_div">
+ <div class="tgc_blog_container">    
     <h2 class="tgc_cta"><?php wp_title(''); ?></h2>
       <?php
         			if ( have_posts() ) :
@@ -28,6 +29,7 @@ get_header();
         			endif;
       ?>
 
+</div>
 </div>
 </div>
 </div>
